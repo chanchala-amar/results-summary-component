@@ -16,11 +16,11 @@ li{
 
 .result-box h3 {
     color:hsl(241, 100%, 89%);
-    font-weight: bold;
+    font-weight: 400;
     font-size: 17px;
 }
 .bold{
-    font-size:1.5em;
+    font-size:1.4em;
     font-weight: 400;
     color: hsl(0, 0%, 100%)
 }
@@ -55,7 +55,7 @@ li{
 }
 .score-text{
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 500;
     padding: 0% 15%;
 }
 .main-box{
@@ -64,7 +64,7 @@ li{
     
 }
 .result-box{  
-    color:hsl(241, 100%, 80%);
+    color:hsla(217, 28%, 87%, 0.7);
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px ;
@@ -116,7 +116,7 @@ li{
 }
 .grey-text {
     color: hsla(224, 30%, 27%,40%);
-    font-weight: bold;
+    font-weight: 400;
 }
 .black-button{
     background-color: hsl(224, 30%, 27%);
