@@ -6,12 +6,15 @@
 body{
     text-align: center;
     font-family: 'HankenGrotesk';
+    max-width: 400px;
+    padding: 0px;
+    margin: 0px;
 }
 ul{
     list-style: none;
 }
 li{
-    margin:5%;
+    margin:2%;
 }
 
 .result-box h3 {
@@ -19,6 +22,7 @@ li{
     font-weight: 400;
     font-size: 17px;
 }
+
 .bold{
     font-size:1.4em;
     font-weight: 400;
@@ -34,9 +38,9 @@ li{
 
 .container{
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    height: 100vh;   
+    height: 100vh; 
 }
 
 .score-circle{
@@ -47,9 +51,9 @@ li{
     min-width: 1em;
     border-radius: 50%;
     vertical-align: middle;
-    padding: 10% 15%;
-    
+    padding: 9% 14%;
 }
+
 .score-circle p{
     margin: 0px;
 }
@@ -60,7 +64,7 @@ li{
 }
 .main-box{
     display:flex;
-    box-shadow: 10px 10px 5px 5px hsl(221, 100%, 96%);
+    flex-direction: column;
     
 }
 .result-box{  
@@ -68,7 +72,7 @@ li{
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px ;
-    flex:1 1 0; 
+    flex:1 1 0;
 }
 .summary-box{  
     display: flex;
@@ -77,12 +81,23 @@ li{
     justify-content: center;
     flex: 1 1 0;
 }
+.summary-box h3{
+    padding-left: 5%;
+    text-align: left;
+}
+.sub-categories-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0% 8% 8% 5%;
+}
 .sub-categories-box{
     display: flex;
     padding: 4%;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: smaller;   
     justify-content: space-between;
+    
 }
 .off-white-text{
     font-size: 12px;
@@ -138,12 +153,21 @@ li{
 }
 
 /* for desktop screens */
-@media(min-width:350px){
+@media(min-width:400px){
     body{
         max-width: 1440px;
     }
-    
+    .container {
+        align-items: center;
+    }
+    .main-box{
+        flex-direction: row;
+        box-shadow: 10px 10px 5px 5px hsl(221, 100%, 96%);
+    }
     .result-box{
         border-radius: 15px;
+    }
+    .summary-box h3 {
+        text-align: center;
     }
 }
