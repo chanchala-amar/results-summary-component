@@ -142,6 +142,11 @@ li{
     text-align: center;
     line-height: 2.5;
     margin-top: 8%;
+    cursor: pointer;
+}
+
+.black-button:active {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 .attribution {
     font-size: 11px;
@@ -169,5 +174,8 @@ li{
     }
     .summary-box h3 {
         text-align: center;
+    }
+    .black-button:hover {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     }
 }
