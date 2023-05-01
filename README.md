@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screenshot.png)
+![](./assets/images/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/chanchala-amar/results-summary-component)
-- Live Site URL: [Add live site URL here](https://chanchala-amar.github.io/results-summary-component/)
+- Solution URL: [https://github.com/chanchala-amar/results-summary-component]
+- Live Site URL: [https://chanchala-amar.github.io/results-summary-component/]
 
 ## My process
 
