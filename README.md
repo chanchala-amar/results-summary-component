@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/screenshot.png)
 
 ### Links
 
@@ -45,15 +45,15 @@ Users should be able to:
 
 Built using only flexbox. I found CSS grid easier to use for positioning of elements on the page.
 
-```css
-
-```
+Learnt a lot about aligning, positioning, relative ratios and justifying flex items.
 
 ### Continued development
 
 CSS only circles that are responsive.
+Limit the width of a flex element in a page when it is the only element.
+Use Vue to read data from json and populate the html page
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) - This helped me learn all about aligning flex items.
+- [CSS circles that expand according to content](https://jsfiddle.net/36m7796q/2/) - Beautiful CSS circles .
